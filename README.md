@@ -1,9 +1,9 @@
 
-# Overview to https://nevadavets.org/
+# 📁 Overview to https://nevadavets.org/
 
   
 
-## **Website Redevelopment**
+## 🖥️ **Website Redevelopment**
 
   
 
@@ -11,7 +11,8 @@ This repository contains the source code for the redevelopment of [NevadaVets.or
 
   
 
-## **Tech Stack Overview**
+## 🛠️ **Tech Stack Overview** 
+[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 
   
 
@@ -32,7 +33,7 @@ This repository contains the source code for the redevelopment of [NevadaVets.or
   
   
 
-## **Why This Tech Stack?**
+## ❓ **Why This Tech Stack?**
 
   
 
@@ -72,7 +73,7 @@ This repository contains the source code for the redevelopment of [NevadaVets.or
 
  
 
-# Overview to Project Setup
+# 📁 Overview to Project Setup
 
   
 
@@ -97,7 +98,7 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### **Issues**
+### 🐛 **Issues/Bugs**
 
 Even following the exact setup, I could not figure it out, the CSS and Tailwind was imported but _not_ applied to the file. In other words, the problem was within the _**vite.config.js**_ and not the _**tailwind.config.js**_.
 
@@ -132,14 +133,18 @@ export default defineConfig({
 ```
 The solution was found on Stackoverflow from this post [here](https://stackoverflow.com/questions/74987006/tailwindcss-not-working-with-vite-react).
 
-### Screenshot of Issue >>>
+### 🖼️ Screenshot of Issue >>>
 ![Screenshot 2024-11-19 021635](https://github.com/user-attachments/assets/57a61835-476d-4e05-8a40-15d42611a150)
 
-### Screenshot of Fix >>>
+### 🖼️ Screenshot of Fix >>>
 ![Screenshot 2024-11-19 023020](https://github.com/user-attachments/assets/37ce0219-4e63-4464-b229-a30213353d46)
 
+# ⚙️ Screenshot Updates
 
-### **Installation**
+### #1️⃣ 
+![Screenshot 2024-11-19 035712](https://github.com/user-attachments/assets/742f64ef-aa28-4827-857d-e2ce18e91fa7)
+
+### 🪛 **Installation**
 
   
 
