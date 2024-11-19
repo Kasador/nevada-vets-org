@@ -10,11 +10,11 @@ export default {
       colors: { // color object for define colors for tailwind-CSS
         light: { // light mode
           primary: '#C54A45',
-          secondary: '#F9DCCD',
-          accent: '#3B82F6',
+          secondary: '#CCCCCC',
+          accent: '#4F90FC',
           background: '#EDEDED',
           surface: '#F3F4F6',
-          text: '#1F2937',
+          text: '#2B2B2B',
         },
         dark: { // dark mode
           primary: '#A43631',
