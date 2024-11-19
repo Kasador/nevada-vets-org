@@ -1,13 +1,15 @@
 // import { useState } from 'react'
 import Header from "./components/Header.jsx";
+import HeroImage from "./components/HeroImage.jsx";
 
 const App = () => {
   return (
     <>
     <Header />
-      <h1 className="text-3xl font-bold underline">
-        test
-      </h1>
+    <HeroImage />
+    <main className="bg-light-background">
+      <h1>Test</h1>
+    </main>
     </>
   )
 }

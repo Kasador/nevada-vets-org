@@ -1,7 +1,9 @@
+import React from "react";
+
 const Header = () => {
     return (
-    <header className="bg-gray-800 text-white p-4">
-        <h1 className="text-2xl font-bold bg-primary">Nevada Vets</h1>
+    <header className="bg-light-primary text-light-secondary absolute h-12 w-full z-10">
+        <span>test</span>
     </header>
     )
   }
