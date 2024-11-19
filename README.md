@@ -70,11 +70,7 @@ This repository contains the source code for the redevelopment of [NevadaVets.or
 
 -  _Avoids the complexity of Server-Side Rendering (SSR), keeping costs and management overhead low, suitable for a non-profit organization._
 
-  
-
----
-
-  
+ 
 
 # Overview to Project Setup
 
