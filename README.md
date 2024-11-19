@@ -96,7 +96,48 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-  
+
+### **Issues**
+
+Even following the exact setup, I could not figure it out, the CSS and Tailwind was imported but _not_ applied to the file. In other words, the problem was within the _**vite.config.js**_ and not the _**tailwind.config.js**_.
+
+This is what get's generated with React + Vite within the _vite.config.js_ file. >>>
+
+```javascript
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+})
+```
+
+Here is what I found and now it works. >>>
+
+```javascript
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+import tailwindcss from "tailwindcss"
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  css: {
+    postcss: {
+      plugins: [tailwindcss()],
+    },
+  },
+})
+```
+The solution was found on Stackoverflow from this post [here](https://stackoverflow.com/questions/74987006/tailwindcss-not-working-with-vite-react).
+
+### Screenshot of Issue >>>
+![Screenshot 2024-11-19 021635](https://github.com/user-attachments/assets/57a61835-476d-4e05-8a40-15d42611a150)
+
+### Screenshot of Fix >>>
+![Screenshot 2024-11-19 023020](https://github.com/user-attachments/assets/37ce0219-4e63-4464-b229-a30213353d46)
+
 
 ### **Installation**
 
@@ -105,7 +146,6 @@ Currently, two official plugins are available:
 1.  **Clone the Repository**
 
 ```bash
-
 git clone https://github.com/your-username/nevada-vets-org.git
-
 cd nevada-vets-org
+
