@@ -5,10 +5,10 @@ import HeroImage from "./components/HeroImage.jsx";
 
 const App = () => {
   return (
-    <>
+    <div className="flex justify-center">
       <Header />
       <HeroImage />
-    </>
+    </div>
   )
 }
 

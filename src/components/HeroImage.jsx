@@ -1,14 +1,16 @@
 import React from "react";
 import { HiChevronDown } from "react-icons/hi";
+// import Logo from "./src/test/nevadavet-logo-main.png";
 
 const HeroImage = () => {
     return (
-      <div className="absolute h-full w-full object-cover bg-center bg-no-repeat z-0 bg-light-surface" style={{ backgroundImage: "url('./src/test/navadavetsorg-hero-bg.jpg')" }}> {/* the image + wrapper */}
+      <div className="absolute h-full w-5/6 object-cover bg-center bg-no-repeat z-0 bg-light-surface top-20" style={{ backgroundImage: "url('./src/test/navadavetsorg-hero-bg.jpg')" }}> {/* the image + wrapper */}
         <div className="absolute inset-0 flex items-center justify-center"> {/* wrapper for hero content + flex items */}
           <div className="text-center text-white px-4"> {/* Wrapper + content */}
-            <h1 className="text-4xl md:text-6xl font-bold">Nevada Veterans</h1>
+          <div style={{ backgroundImage: "url('./src/test/nevadavet-logo-main.png')"}} className="h-32 w-32 bg-contain bg-center bg-no-repeat mx-auto relative right-2"></div>
+            <h1 className="text-4xl md:text-6xl font-bold">Nevada Veterans Foundations</h1>
             <p className="mt-4 text-lg md:text-xl">A non-profit that supports our own.</p>
-            <button className="mt-6 px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-opacity-80">
+            <button className="mt-6 px-6 py-3 bg-light-accent text-white font-medium rounded-lg hover:bg-opacity-80">
               How to Support 
                 <center>
                   <HiChevronDown />
