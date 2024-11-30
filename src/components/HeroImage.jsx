@@ -8,7 +8,7 @@ const HeroImage = () => {
         <div className="relative top-20 flex items-center justify-center"> {/* wrapper for hero content + flex items */}
           <div className="text-center text-white px-4"> {/* Wrapper + content */}
             <div style={{ backgroundImage: "url('./src/test/nevadavet-logo-main.png')"}} className="h-32 w-32 bg-contain bg-center bg-no-repeat mx-auto relative right-2"></div>
-            <h1 className="text-4xl md:text-6xl font-bold">Nevada Veterans Foundations</h1>
+            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-bold">Nevada Veterans Foundation</h1>
             <p className="mt-4 text-lg md:text-xl">A non-profit that supports our own.</p>
             <button className="mt-6 px-6 py-3 bg-light-accent text-white font-medium rounded-lg hover:bg-opacity-80">
               How to Support 
