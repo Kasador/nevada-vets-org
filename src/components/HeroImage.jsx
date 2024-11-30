@@ -4,7 +4,7 @@ import { HiChevronDown } from "react-icons/hi";
 
 const HeroImage = () => {
     return (
-      <div className="absolute h-full w-5/6 object-cover bg-top bg-no-repeat z-0 bg-light-surface top-32" style={{ backgroundImage: "url('./src/test/navadavetsorg-hero-bg.jpg')" }}> {/* the image + wrapper */}
+      <div className="absolute h-full w-5/6 object-cover bg-top bg-no-repeat z-0 bg-light-surface top-36" style={{ backgroundImage: "url('./src/test/navadavetsorg-hero-bg.jpg')" }}> {/* the image + wrapper */}
         <div className="relative top-20 flex items-center justify-center"> {/* wrapper for hero content + flex items */}
           <div className="text-center text-white px-4"> {/* Wrapper + content */}
             <div style={{ backgroundImage: "url('./src/test/nevadavet-logo-main.png')"}} className="h-32 w-32 bg-contain bg-center bg-no-repeat mx-auto relative right-2"></div>
