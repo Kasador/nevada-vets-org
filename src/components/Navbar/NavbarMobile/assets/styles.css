@@ -1,0 +1,73 @@
+/* COLORS       
+    primary: '#C54A45',
+    secondary: '#CCCCCC',
+    accent: '#4F90FC',
+    background: '#EDEDED',
+    surface: '#F3F4F6',
+    text: '#2B2B2B',
+*/
+
+body {
+    --white: #EDEDED;
+    --pink: #C54A45;
+
+    --background: var(--white);
+    --accent: var(--pink);
+  }
+
+
+  .MobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    background: var(--accent);
+    padding-top: 100px;
+    transform: translateX(-100%);
+    will-change: transform;
+  }
+  
+  .MobileMenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+  
+  .MobileMenu li {
+    color: var(--background);
+    display: block;
+    transform-origin: -20px 50%;
+    font-weight: bold;
+    font-size: 48px;
+    padding: 10px;
+    will-change: transform, opacity, filter;
+  }
+  
+  .MobileMenu ul,
+  .MobileMenu li {
+    list-style: none;
+    margin: 0;
+  }
+  
+  .MobileMenuToggle {
+    outline: none;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    width: 45px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--accent);
+    padding: 10px;
+  }
+  
+  .MobileMenuToggle path {
+    fill: var(--background);
+  }

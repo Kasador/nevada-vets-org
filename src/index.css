@@ -3,6 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/*        
+    primary: '#C54A45',
+    secondary: '#CCCCCC',
+    accent: '#4F90FC',
+    background: '#EDEDED',
+    surface: '#F3F4F6',
+    text: '#2B2B2B',
+*/
+
 html {
-    --back: #F3F4F6;
-  }
+    --back: #2B2B2B;
+}
+

@@ -2,10 +2,6 @@ import React from "react";
 import { HiChevronDown } from "react-icons/hi"; // for drow down arrows
 
 const Navbar = () => {
-  const toggleTheme = () => {
-    document.documentElement.classList.toggle("dark");
-  };
-
   return (
     <nav className="bg-light-primary dark:bg-dark-primary text-light-background dark:text-dark-text px-4 py-2">
       <div className="container mx-auto flex items-center justify-between">
